@@ -5,6 +5,10 @@
   "catalog_file": "https://raw.githubusercontent.com/bonnland/na-cordex-aws/main/catalogs/aws-na-cordex.csv",
   "attributes": [
     {
+      "column_name": "variable",
+      "vocabulary": ""
+    },
+    {
       "column_name": "long_name",
       "vocabulary": ""
     },
@@ -38,10 +42,6 @@
     },
     {
       "column_name": "frequency",
-      "vocabulary": ""
-    },
-    {
-      "column_name": "variable",
       "vocabulary": ""
     },
     {
