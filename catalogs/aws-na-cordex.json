@@ -2,63 +2,63 @@
   "esmcat_version": "0.1.0",
   "id": "aws-na-cordex",
   "description": "This is an ESM collection for the NA-CORDEX Zarr dataset publicly available on Amazon S3 (us-west-2 region)",
-  "catalog_file": "https://raw.githubusercontent.com/bonnland/na-cordex-aws/version_1.0/catalogs/aws-na-cordex.csv",
+  "catalog_file": "https://ncar-na-cordex.s3-us-west-2.amazonaws.com/catalogs/aws-na-cordex.csv",
   "attributes": [
     {
-      "column_name": "variable",
-      "vocabulary": ""
-    },
-    {
       "column_name": "long_name",
-      "vocabulary": ""
+      "vocabulary": "https://na-cordex.org/variable-list.html"
     },
     {
       "column_name": "units",
-      "vocabulary": ""
+      "vocabulary": "https://www.unidata.ucar.edu/software/udunits/"
     },
     {
       "column_name": "standard_name",
-      "vocabulary": ""
+      "vocabulary": "http://cfconventions.org/Data/cf-standard-names/current/build/cf-standard-name-table.html"
     },
     {
       "column_name": "spatial_domain",
-      "vocabulary": ""
+      "vocabulary": "http://cfconventions.org/Data/cf-standard-names/docs/standardized-region-names.html"
     },
     {
       "column_name": "vertical_levels",
-      "vocabulary": ""
+      "vocabulary": "Number of vertical levels"
     },
     {
       "column_name": "start_time",
-      "vocabulary": ""
+      "vocabulary": "ISO 8601"
     },
     {
       "column_name": "end_time",
-      "vocabulary": ""
+      "vocabulary": "ISO 8601"
     },
     {
       "column_name": "model",
-      "vocabulary": ""
+      "vocabulary": "https://na-cordex.org/simulation-matrix.html"
     },
     {
       "column_name": "frequency",
-      "vocabulary": ""
+      "vocabulary": "https://na-cordex.org/variable-list.html"
+    },
+    {
+      "column_name": "variable",
+      "vocabulary": "https://na-cordex.org/variable-list.html"
     },
     {
       "column_name": "scenario",
-      "vocabulary": ""
+      "vocabulary": "https://na-cordex.org/dataset-description.html"
     },
     {
       "column_name": "grid",
-      "vocabulary": ""
+      "vocabulary": "https://na-cordex.org/dataset-description.html"
     },
     {
       "column_name": "bias_correction",
-      "vocabulary": ""
+      "vocabulary": "https://na-cordex.org/dataset-description.html"
     },
     {
       "column_name": "spatial_resolution",
-      "vocabulary": ""
+      "vocabulary": "https://na-cordex.org/dataset-description.html"
     }
   ],
   "assets": {
@@ -68,6 +68,7 @@
   "aggregation_control": {
     "variable_column_name": "variable",
     "groupby_attrs": [
+      "variable",
       "frequency",
       "scenario",
       "grid",
@@ -83,5 +84,5 @@
       }
     ]
   },
-  "last_updated": "2021-02-11T19:32:32Z"
+  "last_updated": "2021-03-25T13:32:32Z"
 }
