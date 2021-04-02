@@ -4,7 +4,7 @@ Examples of analysis of NA-CORDEX data publicly available on Amazon S3 (us-west-
 
 ### Installing and Running the Notebook(s)
 For those interested in running the notebook(s) in this repo, the file `environment.yml` contains a conda environment description that
-should work for running on the NCAR supercomputers.   If running outside of NCAR, you should be able to make slight modifications to suit your needs.
+should work for running on the NCAR supercomputers.   If running outside of NCAR, you should be able to make minor modifications to this file to suit your needs.
 
 If your machine does not have the conda package manager installed, see instructions at https://docs.conda.io/en/latest/miniconda.html for installing conda within your user environment.
 
