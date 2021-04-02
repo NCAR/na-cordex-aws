@@ -21,5 +21,5 @@ cd na-cordex-aws
 conda env create -f environment.yml
 ```
 
-NOTE: the conda environment install may require > 1GB of disk space;  add the option `-p <install_path>` to the `conda create` command
+NOTE: the conda environment installation may require more than 2GB of disk space;  add the option `-p <install_path>` to the `conda create` command
 to change the installation folder.
