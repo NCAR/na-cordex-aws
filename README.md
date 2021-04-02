@@ -2,7 +2,7 @@
 Examples of analysis of NA-CORDEX data publicly available on Amazon S3 (us-west-2 region) using xarray and dask
 
 For those interested in running the notebook(s) in this repo, the file `environment.yml` contains a conda environment description that
-should work for running on the NCAR supercomputers.   Modify to suit your needs.
+should work for running on the NCAR supercomputers.   If running outside of NCAR, you should be able to make slight modifications to suit your needs.
 
 To create the environment, clone this repo to your preferred machine for running the notebook and create the conda environment:
 
