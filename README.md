@@ -8,7 +8,7 @@ should work for running on the NCAR supercomputers.   If running outside of NCAR
 
 If your machine does not have the conda package manager installed, see instructions at https://docs.conda.io/en/latest/miniconda.html for installing conda within your user environment.
 
-To create the environment, assuming conda is available already, clone this repo to your preferred machine for running the notebook and create the conda environment:
+To create the environment, assuming conda is available already, clone this repo to your preferred machine for running the notebook, create and then activate the conda environment:
 
 ```
 # Create your own copy of the files in this repository
@@ -19,7 +19,10 @@ cd na-cordex-aws
 
 # Create the conda environment.
 conda env create -f environment.yml
+
+# Activate the conda environment.
+conda activate aws-na-cordex
 ```
 
-NOTE: the conda environment installation may require more than 2GB of disk space;  add the option `-p <install_path>` to the `conda create` command
+NOTE: the conda environment installation may require more than 2GB of disk space.  Add the option `-p <install_path>` to the `conda create` command
 to change the installation folder.
