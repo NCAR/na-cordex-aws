@@ -17,10 +17,10 @@ git clone https://github.com/NCAR/na-cordex-aws.git
 # Change directory into the cloned repo
 cd na-cordex-aws
 
-# Create the conda environment.
+# Create the conda environment
 conda env create -f environment.yml
 
-# Activate the conda environment.
+# Activate the conda environment
 conda activate aws-na-cordex
 ```
 
