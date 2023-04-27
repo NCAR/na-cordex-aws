@@ -36,5 +36,3 @@ dependencies:
 - watermark
 - xarray
 - xesmf
-- pip:
-  - ncar-jobqueue
