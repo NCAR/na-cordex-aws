@@ -1,38 +1,36 @@
-name: na-cordex-aws
+name: na-cordex-cloud-project
 channels:
 - conda-forge
 dependencies:
-- bokeh
 - bottleneck
-- cartopy
+- cartopy>=0.21.1
 - cf-units
 - cftime>=1.0.4.2
 - cmaps
-- dask
-- dask-jobqueue
-- dask-gateway
-- dask-labextension
+- dask>=2023.4.0
+- dask-jobqueue>=0.8.1
 - distributed
-- h5py
-- holoviews
-- hvplot
-- intake
+- intake>=0.6.8
 - intake-esm>=2020.8.15
-- ipywidgets
-- jupyterlab
+- ipykernel
 - matplotlib
-- nbval
 - nc-time-axis
-- netcdf4
-- nodejs
-- numba
-- pandas
+- nbval                   # for rendering notebooks in HTML
+- pandas>=2.0.1
 - pip
 - pytest
-- python
+- python>=3.8
 - s3fs
-- scipy
+- scipy>=1.10.1
 - tqdm
 - watermark
-- xarray
-- xesmf
+- xarray>=2023.4.2
+#
+# These have been used in the past but are currently unneeded:
+#- holoviews
+#- hvplot
+#- bokeh
+#- nodejs
+#- numba
+#- h5py
+#- netcdf4
