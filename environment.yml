@@ -15,7 +15,7 @@ dependencies:
 - ipykernel
 - matplotlib
 - nc-time-axis
-- nbval                   # for rendering notebooks in HTML
+- nbval                  
 - pandas>=2.0.1
 - pip
 - pytest
@@ -25,12 +25,3 @@ dependencies:
 - tqdm
 - watermark
 - xarray>=2023.4.2
-#
-# These have been used in the past but are currently unneeded:
-#- holoviews
-#- hvplot
-#- bokeh
-#- nodejs
-#- numba
-#- h5py
-#- netcdf4
