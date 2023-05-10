@@ -1,12 +1,7 @@
-name: na-cordex-cloud-project
+name: na-cordex-aws
 channels:
 - conda-forge
 dependencies:
-- bottleneck
-- cartopy>=0.21.1
-- cf-units
-- cftime>=1.0.4.2
-- cmaps
 - dask>=2023.4.0
 - dask-jobqueue>=0.8.1
 - distributed
@@ -14,14 +9,11 @@ dependencies:
 - intake-esm>=2020.8.15
 - ipykernel
 - matplotlib
-- nc-time-axis
-- nbval                  
-- pandas>=2.0.1
 - pip
-- pytest
 - python>=3.8
 - s3fs
-- scipy>=1.10.1
 - tqdm
 - watermark
 - xarray>=2023.4.2
+## If you are not running on a pre-installed jupyter instance, uncomment this:
+#- jupyterlab
