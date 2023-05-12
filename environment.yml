@@ -2,39 +2,18 @@ name: na-cordex-aws
 channels:
 - conda-forge
 dependencies:
-- bokeh
-- bottleneck
-- cartopy
-- cf-units
-- cftime>=1.0.4.2
-- cmaps
-- dask
-- dask-jobqueue
-- dask-gateway
-- dask-labextension
+- dask>=2023.4.0
+- dask-jobqueue>=0.8.1
 - distributed
-- h5py
-- holoviews
-- hvplot
-- intake
+- intake>=0.6.8
 - intake-esm>=2020.8.15
-- ipywidgets
-- jupyterlab
+- ipykernel
 - matplotlib
-- nbval
-- nc-time-axis
-- netcdf4
-- nodejs
-- numba
-- pandas
 - pip
-- pytest
-- python
+- python>=3.8
 - s3fs
-- scipy
 - tqdm
 - watermark
-- xarray
-- xesmf
-- pip:
-  - ncar-jobqueue
+- xarray>=2023.4.2
+## If you are not running on a pre-installed jupyter instance, uncomment this:
+#- jupyterlab
