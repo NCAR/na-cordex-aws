@@ -1,4 +1,4 @@
-name: na-cordex-aws
+name: na-cordex-explore-siphon
 channels:
 - conda-forge
 dependencies:
@@ -12,6 +12,7 @@ dependencies:
 - pip
 - python>=3.8
 - s3fs
+- siphon
 - tqdm
 - watermark
 - xarray>=2023.4.2
