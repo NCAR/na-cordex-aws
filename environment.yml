@@ -1,4 +1,4 @@
-name: na-cordex-explore-siphon
+name: explore-siphon
 channels:
 - conda-forge
 dependencies:
