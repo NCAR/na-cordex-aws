@@ -2,6 +2,9 @@ name: explore-siphon
 channels:
 - conda-forge
 dependencies:
+- bokeh=3.2
+- cfgrib
+- eccodes
 - dask>=2023.4.0
 - dask-jobqueue>=0.8.1
 - distributed
