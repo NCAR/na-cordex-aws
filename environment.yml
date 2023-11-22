@@ -10,6 +10,7 @@ dependencies:
 - distributed
 - intake>=0.6.8
 - intake-esm>=2020.8.15
+- intake-thredds
 - ipykernel
 - matplotlib
 - pip
